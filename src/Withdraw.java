@@ -6,6 +6,9 @@ public class Withdraw {
     private final String account;
     private double checkBalance;
     private double savingBalance;
+    //requires: all above
+    //modifies: this
+    //effects: output to array list and output user sees
 
     //pretty much the same as the prior method in the customer class except this is just saving said amounts
     // to the array list

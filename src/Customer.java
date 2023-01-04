@@ -9,7 +9,9 @@ public class Customer {
     private double checkBalance;
     private double savingBalance;
     private final String name;
-
+    //requires: all above
+    //modifies: this
+    //effects: everything
 
 //constructor for Customer object
     Customer(String name, int accountNumber, double checkBalance, double savingBalance){
