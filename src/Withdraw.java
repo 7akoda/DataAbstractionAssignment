@@ -7,6 +7,8 @@ public class Withdraw {
     private double checkBalance;
     private double savingBalance;
 
+    //pretty much the same as the prior method in the customer class except this is just saving said amounts
+    // to the array list
     Withdraw(double amount, Date date, String account, double checkBalance, double savingBalance) {
         this.amount = amount;
         this.date = date;
@@ -19,7 +21,7 @@ public class Withdraw {
             this.savingBalance = savingBalance;
         }
     }
-
+    //formatting what the user will see as output, %.2f will be a float and %s a string.
     public String toString() {
         if (account.equalsIgnoreCase("checking")) {
             return String.format("Withdraw: $%.2f on %s from %s. Current checking balance: $%.2f",
